@@ -12,7 +12,8 @@
 	left:0;
 	width:100%;
 	height:100%;
-	background: url(images/planet.png) no-repeat center center;
+	background: url(images/planet.png) no-repeat center center, url(images/spaceRetina.png) no-repeat center -400px;
+	border-radius: 15px;
 }
 
 .rocket{
@@ -58,4 +59,8 @@
 		transform:rotate(360deg);
 		-webkit-transform:rotate(360deg);
 	}
+}
+
+footer, p {
+	text-align: center;
 }
